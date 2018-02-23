@@ -1,0 +1,46 @@
+{
+  "generator-ngx-library": {
+    "version": "5.6.0",
+    "authorName": "NGUYEN Khue",
+    "authorEmail": "hollisemail@gmail.com",
+    "githubUsername": "hollisgit",
+    "githubRepoName": "angular",
+    "projectName": "my-ngx-library",
+    "projectVersion": "0.0.1",
+    "projectDescription": "Angular library built with ❤ using ngx-library yeoman generator.",
+    "projectKeywords": [
+      "ng",
+      "angular",
+      "library"
+    ],
+    "ngVersion": "5.0.0",
+    "ngModules": [
+      "core",
+      "common",
+      "forms",
+      "http",
+      "compiler",
+      "router",
+      "platform-browser-dynamic",
+      "platform-browser"
+    ],
+    "otherDependencies": [
+      "hammerjs",
+      "lodash",
+      "moment",
+      "reflect-metadata"
+    ],
+    "dependenciesRange": "^",
+    "ngPrefix": "mylib",
+    "testingFramework": "karma",
+    "useGreenkeeper": true,
+    "useCompodoc": true,
+    "enforceNgGitCommitMsg": true,
+    "exclusions": [
+      "demo/src/jestGlobalMocks.ts",
+      "demo/src/setupJest.ts",
+      "config/jestGlobalMocks.ts",
+      "config/setupJest.ts"
+    ]
+  }
+}

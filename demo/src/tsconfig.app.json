@@ -1,0 +1,21 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "module": "es2015",
+    "types": [],
+    "paths": {
+      "@angular/*": ["../node_modules/@angular/*"],
+      "hammerjs": ["../node_modules/hammerjs"],
+      "lodash": ["../node_modules/lodash"],
+      "moment": ["../node_modules/moment"],
+      "reflect-metadata": ["../node_modules/reflect-metadata"]
+    }
+  },
+  "exclude": [
+    "testing/*",
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}
