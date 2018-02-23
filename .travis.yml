@@ -12,7 +12,10 @@ addons:
 language: node_js
 node_js:
   - "6"
-
+branches:
+  only:
+  - master
+  - dev
 before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
@@ -24,4 +27,3 @@ after_success: gulp coveralls
 
 cache:
   yarn: true
-  
